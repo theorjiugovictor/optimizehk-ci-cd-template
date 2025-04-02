@@ -1,4 +1,4 @@
-# 🚀 Startup CI/CD Pipeline Template  
+# Startup CI/CD Pipeline Template  
 
 **Deploy your app in minutes, not days!** This template automates testing and deployments for startups.  
 

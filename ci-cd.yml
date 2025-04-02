@@ -1,0 +1,20 @@
+name: Startup CI/CD Pipeline  
+on: [push]  
+
+jobs:  
+  test:  
+    runs-on: ubuntu-latest  
+    steps:  
+      - uses: actions/checkout@v4  
+      - name: Install Dependencies  
+        run: npm install  
+      - name: Run Tests  
+        run: npm test  
+
+  deploy:  
+    needs: test  
+    runs-on: ubuntu-latest  
+    steps:  
+      - uses: actions/checkout@v4  
+      - name: Fake Deployment (Replace Me!)  
+        run: echo "Your app would deploy here!"  

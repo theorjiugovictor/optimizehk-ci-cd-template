@@ -1,6 +1,6 @@
 # Startup CI/CD Pipeline Template  
 
-**Deploy your app in minutes, not days!** This template automates testing and deployments for startups.  
+**Deploy your app in minutes, not days!** This template automates testing and deployments for startups and small projects.  
 
 ## How to Use  
 1. **Click "Use this template"** (above) to copy this repo.  
